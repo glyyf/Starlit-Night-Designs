@@ -1,0 +1,42 @@
+:root {
+    --background-color: black;
+    --button-hover-color: darkslategray;
+    --text-color: darkgreen;
+    --button-bg-color: transparent;
+}
+
+
+body {
+    background-color: black;
+    color: darkgreen;
+}
+
+body p{
+    font-size: 1.5em;
+}
+
+label {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.smallone {
+    display: none;
+}
+
+.big {
+    display: block;
+}
+
+@media only screen and (max-width: 630px) {
+    .smallone {
+        display: block;
+    }
+    .big {
+        display: none;
+    }
+}
+

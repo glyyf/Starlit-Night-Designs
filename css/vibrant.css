@@ -1,0 +1,122 @@
+:root {
+    --background-color: #547d8f;
+    --button-hover-color: #f2e436;
+    --text-color: white;
+    --button-bg-color: #f17427;
+    --jumbotron-color: #f10f24;
+    --button-text-color: #fefefe;
+    --button-text-color-hover: black;
+}
+
+
+body {
+    background-color: var(--background-color);
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+.minimaldata {
+    display:none;
+}
+
+.jumbotron p {
+    padding-left: 60px;
+}
+
+.jumbotron {
+    color: var(--text-color);
+    background-color: var(--jumbotron-color);
+}
+
+.buttons {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.jumbotron .btn {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    width: 15%;
+}
+
+.jumbotron .btn:hover {
+    background-color: var(--button-hover-color);
+    color: var(--button-text-color-hover);
+}
+
+.info {
+    color: var(--text-color);
+}
+
+.bio {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.bio2 {
+    font-size: 1.2em;
+}
+
+.explination {
+    font-size: 1.2em;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.spacers {
+    display: none;
+}
+
+.buttons2{
+    padding-top: 30px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.buttons2 .btn {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    width: 30%;
+}
+
+.buttons2 .btn:hover {
+    background-color: var(--button-hover-color);
+    color: var(--button-text-color-hover);
+}
+
+
+
+@media only screen and (max-width: 630px) {
+    .buttons {
+        display: block;
+        margin: 0 auto;
+    }
+    .spacers {
+        display: inline;
+    }
+    .jumbotron .btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .jumbotron p {
+    padding-right: 30px;
+    }
+    .explination {
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .buttons2 .btn {
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    .jumbotron {
+        padding-bottom: 0px;
+    }
+
+}

@@ -1,0 +1,160 @@
+/* Dev to Galaxy */
+
+@keyframes devtogalaxybgchange {
+    from {background-color: black;}
+    to {background-color: #02070B;}
+}
+
+@keyframes devtogalaxyjumbo {
+    from {color:darkgreen; background-color:black;}
+    to {color: #b8bcbf; background-color: rgba(0,0,0,.4)}
+}
+
+@keyframes devtogalaxyjumbobtn {
+    from {background-color: transparent; color: darkgreen;}
+    to {background-color: #2D454E; color: #b8bcbf;}
+}
+
+@keyframes devtogalaxyinfo {
+    from {color: darkgreen;}
+    to {color: #b8bcbf;}
+}
+
+@keyframes devtogalaxybuttons2btn {
+    from {background-color: transparent; color: darkgreen;}
+    to {background-color: #2D454E; color: #b8bcbf;}
+}
+/* Dev to Vibrant */
+
+@keyframes devtovibrantbgchange {
+    from {background-color: black;}
+    to {background-color: #547d8f;}
+}
+
+@keyframes devtovibrantjumbo {
+    from {color:darkgreen; background-color: black}
+    to {color: white; background-color: #f10f24;}
+}
+
+@keyframes devtovibrantjumbobtn {
+    from {background-color: transparent; color: darkgreen;}
+    to {background-color: #f17427; color: white;}
+}
+
+@keyframes devtovibrantinfo {
+    from {color: darkgreen;}
+    to {color: white;}
+}
+
+@keyframes devtovibrantbuttons2btn {
+    from {background-color: transparent; color: darkgreen;}
+    to {background-color: #f17427; color: white;}
+}
+
+/* Galaxy to Dev */
+
+@keyframes galaxytodevbgchange {
+    from {background-color: #02070B;}
+    to {background-color: black;}
+}
+
+@keyframes galaxytodevjumbo {
+    from {color: white; background-color: rgba(0,0,0,.4);}
+    to {color:darkgreen; background-color: black;}
+}
+
+@keyframes galaxytodevjumbobtn {
+    from {background-color: #2D454E; color: #b8bcbf;}
+    to {background-color: transparent; color: darkgreen;}
+}
+
+@keyframes galaxytodevinfo {
+    from {color: #b8bcbf;}
+    to {color: darkgreen;}
+}
+
+@keyframes galaxytodevbuttons2btn {
+    from {background-color: #2D454E; color: #b8bcbf;}
+    to {background-color: transparent; color: darkgreen;}
+}
+
+/* Galaxy to Vibrant */
+
+@keyframes galaxytovibrantbgchange {
+    from {background-color: #02070B;}
+    to {background-color: #547d8f;}
+}
+
+@keyframes galaxytovibrantjumbo {
+    from {color: white; background-color: rgba(0,0,0,.4);}
+    to {color: white; background-color: #f10f24;}
+}
+
+@keyframes galaxytovibrantjumbobtn {
+    from {background-color: #2D454E; color: #b8bcbf;}
+    to {background-color: #f17427; color: white;}
+}
+
+@keyframes galaxytovibrantinfo {
+    from {color: #b8bcbf;}
+    to {color: white;}
+}
+
+@keyframes galaxytovibrantbuttons2btn {
+    from {background-color: #2D454E; color: #b8bcbf;}
+    to {background-color: #f17427; color: white;}
+}
+
+/* Vibrant to Dev */
+
+@keyframes vibranttodevbgchange {
+    from {background-color: #547d8f;}
+    to {background-color: black;}
+}
+
+@keyframes vibranttodevjumbo {
+    from {color: white; background-color: #f10f24;}
+    to {color:darkgreen; background-color: black;}
+}
+
+@keyframes vibranttodevjumbobtn {
+    from {background-color: #f17427; color: white;}
+    to {background-color: transparent; color: darkgreen;}
+}
+
+@keyframes vibranttodevinfo {
+    from {color: white;}
+    to {color: darkgreen;}
+}
+
+@keyframes vibranttodevbuttons2btn {
+    from {background-color: #f17427; color: white;}
+    to {background-color: transparent; color: darkgreen;}
+}
+
+/* Vibrant to Galaxy */
+
+@keyframes vibranttogalaxybgchange {
+    from {background-color: #547d8f;}
+    to {background-color: #02070B;}
+}
+
+@keyframes vibranttogalaxyjumbo {
+    from {color: white; background-color: #f10f24;}
+    to {color: #b8bcbf; background-color: rgba(0,0,0,.4)}
+}
+
+@keyframes vibranttogalayjumbobtn {
+    from {background-color: #f17427; color: white;}
+    to {background-color: #2D454E; color: #b8bcbf;}
+}
+
+@keyframes vibranttogalaxyinfo {
+    from {color: white;}
+    to {color: #b8bcbf;}
+}
+
+@keyframes vibranttogalaxybuttons2btn {
+    from {background-color: #f17427; color: white;}
+    to {background-color: #2D454E; color: #b8bcbf;}
+}

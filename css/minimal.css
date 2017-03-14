@@ -1,0 +1,136 @@
+:root {
+    --background-color: #020434;
+    --button-hover-color: #208bcf;
+    --text-color: rgb(230, 230, 230);
+    --button-bg-color: #09236d;
+}
+
+
+body {
+    background-color: #020434;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+.minimaldata {
+    color: #208bcf;
+    text-align: center;
+    font-size: 1500%;
+}
+
+.afterbtnspace {
+    display: none;
+}
+
+.maindata {
+    display: none;
+}
+
+.jumbotron p {
+    padding-left: 60px;
+}
+
+.jumbotron {
+    color: rgb(230, 230, 230);
+    background: #032466;
+    background: -moz-radial-gradient(center, ellipse cover, #032466 0%, #020434 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #032466 0%,#020434 100%);
+    background: radial-gradient(ellipse at center, #032466 0%,#020434 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032466', endColorstr='#020434',GradientType=1 );
+}
+
+.buttons {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.jumbotron .btn {
+    background-color: #09236d;
+    color: rgb(230, 230, 230);
+    width: 15%;
+}
+
+.jumbotron .btn:hover {
+    background-color: #208bcf;
+    color: rgb(230, 230, 230);
+}
+
+.info {
+    color: rgb(230, 230, 230);
+}
+
+.bio {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.bio2 {
+    font-size: 1.2em;
+}
+
+.explination {
+    font-size: 1.2em;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.spacers {
+    display: none;
+}
+
+.buttons2{
+    padding-top: 30px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.buttons2 .btn {
+    background-color: transparent;
+    color: rgb(230, 230, 230);
+    width: 30%;
+}
+
+.buttons2 .btn:hover {
+    background-color: #208bcf;
+    color: rgb(230, 230, 230);
+}
+
+
+
+@media only screen and (max-width: 630px) {
+    .buttons {
+        display: block;
+        margin-top: 40px;
+    }
+    .spacers {
+        display: inline;
+    }
+    .jumbotron .btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .jumbotron p {
+    padding-right: 30px;
+    }
+    .jumbotron {
+        padding-bottom: 0px;
+    }
+    .explination {
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .buttons2 .btn {
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    .minimaldata {
+        font-size: 100px;
+    }
+
+}

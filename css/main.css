@@ -1,0 +1,124 @@
+:root {
+    --background-color: black;
+    --button-hover-color: darkslategray;
+    --text-color: darkgreen;
+    --button-bg-color: transparent;
+}
+
+
+body {
+    background-color: black;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+.minimaldata {
+    display:none;
+}
+
+.jumbotron p {
+    padding-left: 60px;
+}
+
+.jumbotron {
+    color: darkgreen;
+    background-color: black;
+}
+
+.buttons {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.jumbotron .btn {
+    background-color: transparent;
+    color: darkgreen;
+    width: 15%;
+}
+
+.jumbotron .btn:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+.info {
+    color: darkgreen;
+}
+
+.bio {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.bio2 {
+    font-size: 1.2em;
+}
+
+.explination {
+    font-size: 1.2em;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.spacers {
+    display: none;
+}
+
+.buttons2{
+    padding-top: 30px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.buttons2 .btn {
+    background-color: transparent;
+    color: darkgreen;
+    width: 30%;
+}
+
+.buttons2 .btn:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 630px) {
+    .buttons {
+        display: block;
+        margin: 0 auto;
+    }
+    .spacers {
+        display: inline;
+    }
+    .jumbotron .btn {
+        width: 50%;
+        margin-bottom: 10px;
+        margin-left: 25%;
+    }
+    .jumbotron p {
+    padding-right: 30px;
+    }
+    .explination {
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .buttons2 .btn {
+        width: 450px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .jumbotron {
+        padding-bottom: 0px;
+    }
+
+}
+
