@@ -1,6 +1,6 @@
 <?php
 
-require ("php/login.php");
+require ("login.php");
 
 $firstname = $_POST["f_name"];
 $lastname = $_POST["l_name"];
