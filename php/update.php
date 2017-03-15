@@ -1,10 +1,6 @@
 <?php
 
-$server = "localhost";
-$user = "starlit2_test";
-$pass = "phptestphp5000";
-$dbname = "starlit2_php_test";
-
+require ("php/login.php");
 
 $firstname = $_POST["f_name"];
 $lastname = $_POST["l_name"];
