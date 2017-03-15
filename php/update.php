@@ -1,6 +1,16 @@
 <?php
 
 require ("login.php");
+/*
+
+Set these variables and delete require ("login.php");, or create a file called login.php with these values set inside them.
+
+$server = "test";
+$user = "test";
+$pass = "test";
+$dbname = "test";
+*/
+
 
 $firstname = $_POST["f_name"];
 $lastname = $_POST["l_name"];
